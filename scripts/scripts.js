@@ -12,6 +12,7 @@ async function displayMeme(){
         const jsonResponse = await response.json();
         //required
         console.log(jsonResponse);
+        //added a 2 here
         const meme = jsonResponse.data.memes[2];
 
         const image = document.createElement("img");
