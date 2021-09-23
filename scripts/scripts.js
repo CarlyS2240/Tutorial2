@@ -13,7 +13,7 @@ async function displayMeme(){
         //required
         console.log(jsonResponse);
         //added a 2 here
-        const meme = jsonResponse.data.memes[2];
+        const meme = jsonResponse.data.memes[5];
 
         const image = document.createElement("img");
         image.src = meme.url;
